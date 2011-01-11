@@ -1,0 +1,26 @@
+## Per system
+
+sudo apt-get update
+sudo apt-get install nginx
+sudo apt-get install supervisor
+sudo apt-get install python-setuptools
+
+sudo easy_install pip
+
+sudo pip install virtualenv
+
+## Per project
+
+Create a user
+Setup virtualenv
+
+## Local
+
+Pip install gunicorn
+Add gunicorn to installed apps.
+
+{
+    distro: ...,
+    projectname: ...,
+    private_key_path: ...,
+}
